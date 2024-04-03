@@ -1,5 +1,4 @@
 name: Flask CI
-description: "Run Flask app checks on push to master branch"
 
 on:
   push:

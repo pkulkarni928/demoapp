@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4 # Updated to v4
+    - uses: actions/checkout@v4
     - name: Set up Python 3.8
-      uses: actions/setup-python@v2 # Updated to v2
+      uses: actions/setup-python@v3 # Using v3 for compatibility with Node.js 20
       with:
         python-version: 3.8
     - name: Install dependencies
